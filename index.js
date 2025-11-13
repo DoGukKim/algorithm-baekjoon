@@ -3,3 +3,4 @@ let input = require("fs")
   .toString()
   .trim()
   .split("\n");
+input = input.map((i) => i.split(" ").map(Number));
