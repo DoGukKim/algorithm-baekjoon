@@ -32,12 +32,12 @@ for (let i = 0; i < testCase; i++) {
     for (let y = 0; y < w; y++) {
       if (mtx[x][y] === "@") {
         personQueue.push([x, y]);
-        personMtx[x][y] = 0; // 체크를 위해 방문 시작을 1로 초기화
+        personMtx[x][y] = 0;
       }
 
       if (mtx[x][y] === "*") {
         fireQueue.push([x, y]);
-        fireMtx[x][y] = 0; // 체크를 위해 방문 시작을 1로 초기화
+        fireMtx[x][y] = 0;
       }
     }
   }
