@@ -1,3 +1,5 @@
+// TimeComplexity: O(1)
+// SpaceComplexity: O(1)
 let input = require("fs")
   .readFileSync("/dev/stdin")
   .toString()
@@ -11,10 +13,11 @@ const cost1 = (X + Y) * W;
 
 const minVal = Math.min(X, Y);
 const maxVal = Math.max(X, Y);
-const cost2 = minVal * S + (maxVal - minVal) * W;
+const diff = Math.abs(X - Y);
+const cost2 = minVal * S + diff * W;
 
 let cost3;
-if ((maxVal - minVal) % 2 === 0) {
+if (diff % 2 === 0) {
   cost3 = maxVal * S;
 } else {
   cost3 = (maxVal - 1) * S + W;
