@@ -20,3 +20,6 @@ graph = [list(map(int, sys.stdin.readline().split())) for _ in range(n)]
 
 # 2차원 문자 배열
 board = [sys.stdin.readline().rstrip() for _ in range(n)]
+
+# 각 줄을 공백으로 분리하고 정수로 변환
+input = [list(map(int, line.split())) for line in input]

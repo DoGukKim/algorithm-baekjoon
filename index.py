@@ -1,4 +1,4 @@
 import sys
 
 sys.stdin = open("input.txt")
-input = list(map(int, sys.stdin.readline().split()))
+input = sys.stdin.read().strip().split("\n")
