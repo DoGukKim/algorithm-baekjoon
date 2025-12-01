@@ -1,4 +1,4 @@
-// TimeComplexity: O(N * M)
+// TimeComplexity: O((N * M)^2)
 // SpaceComplexity: O(N * M)
 let input = require("fs")
   .readFileSync("/dev/stdin")
