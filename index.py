@@ -1,5 +1,5 @@
-# TimeComplexity: O(N log N + M log N)
-# SpaceComplexity: O(N + M)
+# TimeComplexity: O(N log H)
+# SpaceComplexity: O(1)
 import sys
 
 read = sys.stdin if sys.platform == "linux" else open("input.txt")
