@@ -1,4 +1,4 @@
-# TimeComplexity: O(N log N + N log X)
+# TimeComplexity: O(N log K) where K is the maximum price
 # SpaceComplexity: O(1)
 import sys
 
