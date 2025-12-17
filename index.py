@@ -1,4 +1,4 @@
-# TimeComplexity: O(N log H)
+# TimeComplexity: O(N log N + N log X)
 # SpaceComplexity: O(1)
 import sys
 
