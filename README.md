@@ -53,3 +53,10 @@ node <파일경로>.js
 
 - [백준 온라인 저지](https://www.acmicpc.net/)
 - [solved.ac](https://solved.ac/) - 문제 난이도 확인
+
+<p></p>
+백준 알고리즘에 도전하는 개발자분들 화이팅입니다!👍🏻🏋️
+<p></p>
+<p align='center'>
+<img src='./jobs.png' style="width:400px; border-radius:5px" />
+</p>
