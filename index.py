@@ -1,4 +1,4 @@
-# TimeComplexity: O(N^2 * log(N))
+# TimeComplexity: O(N^3)
 # SpaceComplexity: O(N^2)
 import sys
 
