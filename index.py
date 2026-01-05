@@ -1,6 +1,6 @@
-# TimeComplexity: O(1)
-# SpaceComplexity: O(1)
+# TimeComplexity: O(N)
+# SpaceComplexity: O(N^2)
 import sys
 
 read = sys.stdin if sys.platform == "linux" else open("input.txt")
-lines = read.read().strip().split("\n")
+input = read.read().strip().split("\n")
