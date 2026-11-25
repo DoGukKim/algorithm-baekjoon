@@ -1,3 +1,7 @@
-const fs = require("fs");
-const filePath = process.platform === "linux" ? "/dev/stdin" : "./input.txt";
-let input = fs.readFileSync(filePath).toString().trim().split("\n");
+// TimeComplexity: O(N^2)
+// SpaceComplexity: O(N)
+const input = require("fs")
+  .readFileSync("input.txt")
+  .toString()
+  .trim()
+  .split("\n");
